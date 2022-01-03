@@ -84,7 +84,7 @@ class ProductItemDetails extends Component {
   )
 
   renderFailureView = () => (
-    <div className="product-details-failure-view-container">
+    <li className="product-details-failure-view-container">
       <img
         alt="failure view"
         src="https://assets.ccbp.in/frontend/react-js/nxt-trendz-error-view-img.png"
@@ -96,7 +96,7 @@ class ProductItemDetails extends Component {
           Continue Shopping
         </button>
       </Link>
-    </div>
+    </li>
   )
 
   onDecrementQuantity = () => {
